@@ -1,0 +1,130 @@
+header {
+    position: static;
+}
+
+#navbar {
+    flex-direction: column;
+    justify-content: center;
+}
+
+header #navbar::before {
+    opacity: 1;
+}
+
+#logo img {
+    /* position: static; */
+    left: 0;
+}
+
+.navigation ul {
+    padding: 10px;
+}
+
+.navigation ul li {
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+    margin: 0 5px;
+}
+
+
+
+/* ==================================================    Home    ================================== */
+
+
+
+
+#home {
+    height: 385px;
+}
+
+#home h1 {
+    padding: 5px;
+    font-size: 1.8rem;
+}
+
+#home p {
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#home .btn {
+    padding: 10px 20px;
+}
+
+
+/* ==================================================    Services Container    ================================== */
+
+
+#services {
+    flex-direction: column;
+}
+
+
+
+/* ==================================================    client-section    ================================== */
+
+
+
+
+
+#client-section>h2 {
+    padding-top: 20px;
+}
+
+.clients {
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+
+.clients-logo {
+    padding: 5px;
+}
+
+.clients-logo img {
+    width: 85px;
+    margin: 20px;
+}
+
+
+
+
+/* ==================================================    contact-section    ================================== */
+
+
+#contact-us {
+    /* flex-direction: column; */
+    padding: 20px 10%;
+}
+
+#contact-right,
+#contact-left {
+    flex-basis: 100%;
+}
+
+/* #contact-right {
+    margin-top: -130px;
+    padding: 0 25px;
+    width: 100%;
+} */
+#contact-left h2 {
+    padding: 20px 0;
+}
+
+#contact-left p {
+    padding: 20px 0;
+}
+
+#contact-right input,
+#contact-right textarea {
+    width: 100%;
+}
+
+footer div {
+    padding: 15px 0;
+}
+
+footer div p {
+    padding: 0 20px;
+    font-size: 12px;
+}
